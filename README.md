@@ -2,7 +2,7 @@
 
 ## Overview of the analysis: 
 
-In this analysis we are using machine learning to evaluate credit risk based on a series of data provided. We rely on multiple Methods to produce our models. We address issues of oversampling and undersampling to ensure that we get our most accurate results. For this analysis we find that having a precise search is a safer bet as a bank because having too many defaults could lead to bankruptcy of the bank if too many bad loans are given out. We used six different undersample and oversampling algorihims to reduce as much bias as possible. We used RandomOverSampler and SMOTE to oversample the data, and ClusterCentroids to undersample the data. SMOTEENN was then later used to combine both. To combat bias we used BalancedRandomForestClassifier and EastEnsembleClassifier. 
+In this analysis we are using machine learning to evaluate credit risk based on a series of data provided. We rely on multiple methods to produce our models. We address issues of oversampling and under sampling to ensure that we get our most accurate results. For this analysis we find that having a precise search is a safer bet as a bank because having too many defaults could lead to bankruptcy of the bank if too many bad loans are given out. We used six different under sample and oversampling algorithms to reduce as much bias as possible. We used RandomOverSampler and SMOTE to oversample the data, and ClusterCentroids to undersample the data. SMOTEENN was then later used to combine both. To combat bias we used BalancedRandomForestClassifier and EastEnsembleClassifier.
 
 ## Results:
 
